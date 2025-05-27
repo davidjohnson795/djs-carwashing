@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DJ's Carwashing</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7f9;
+      color: #333;
+    }
+    header {
+      background-color: #0077cc;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      color: #0077cc;
+      margin-bottom: 1rem;
+    }
+    .pricing-table {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    .pricing-table div {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .pricing-table h3 {
+      margin-top: 0;
+      font-size: 1.2rem;
+    }
+    .contact {
+      background-color: #e8f4fd;
+      padding: 1.5rem;
+      border-radius: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #0077cc;
+      color: white;
+    }
+    @media (max-width: 600px) {
+      .pricing-table {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>DJ's Carwashing</h1>
+  <p>Fast, Affordable, and Done Right by a Young Entrepreneur</p>
+</header>
+
+<section>
+  <h2>About DJ</h2>
+  <p>Hi! I'm DJ, a 15-year-old who’s passionate about making cars look brand new. Whether you need a quick clean or a full buff & shine, I’ve got you covered. I’ll come to you or meet nearby depending on distance!</p>
+</section>
+
+<section>
+  <h2>Services & Pricing</h2>
+  <div class="pricing-table">
+    <div>
+      <h3>Exterior Wash</h3>
+      <p>$10 - Hand washed and rinsed</p>
+    </div>
+    <div>
+      <h3>Interior Cleaning</h3>
+      <p>$5 - Vacuum and wipe down interior</p>
+    </div>
+    <div>
+      <h3>Tire Shine</h3>
+      <p>$10 - Tires cleaned and shined</p>
+    </div>
+    <div>
+      <h3>Buffing</h3>
+      <p>$20 - Light polish and buff</p>
+    </div>
+  </div>
+  <p style="margin-top: 1rem;">👉 Combine services for a full package!</p>
+</section>
+
+<section>
+  <h2>Scheduling & Availability</h2>
+  <p>I work around your schedule! Just reach out and we’ll set up a time that works best for you.</p>
+</section>
+
+<section>
+  <h2>Contact DJ</h2>
+  <div class="contact">
+    <p><strong>Phone:</strong> <a href="tel:7174136762">717-413-6762</a></p>
+    <p><strong>Email:</strong> <a href="mailto:davidjohnsonappleid@icloud.com">davidjohnsonappleid@icloud.com</a></p>
+    <p>Reach out via call, text, or email to schedule your wash today!</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 DJ's Carwashing — Proudly run by a teen entrepreneur 🚗💧</p>
+</footer>
+
+</body>
+</html>
